@@ -1,0 +1,35 @@
+.backDrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s;
+    z-index: 99;
+}
+
+.showBackDrop {
+    visibility: visible;
+    opacity: 0.8;
+}
+
+.ouverlay {
+    position: absolute;
+    padding: 20px;
+    width: 30%;
+    background-color: #ffffff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    visibility: hidden;
+    transition: all 0.3s;
+    z-index: 999;
+}
+
+.showOuverlay {
+    visibility: visible;
+}
